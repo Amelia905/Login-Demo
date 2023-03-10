@@ -18,10 +18,10 @@
 }
 
 .control label {
-  font-weight: bold;
-  flex: 1;
-  color: #464646;
-  margin-bottom: 0.5rem;
+  width: 78px;
+  margin-right: 30px;
+  color: white;
+  text-align: center;
 }
 
 .control input {
@@ -29,7 +29,7 @@
   font: inherit;
   padding: 0.35rem 0.35rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: none;
 }
 
 .control input:focus {
@@ -39,8 +39,11 @@
 }
 
 .control.invalid input {
-  border-color: red;
-  background: #fbdada;
+  background: #414769;
+  border-bottom: 2px solid #f9b17a;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: white;
 }
 
 .actions {
@@ -52,5 +55,4 @@
     align-items: center;
     flex-direction: row;
   }
-
 }

@@ -7,10 +7,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #741188;
+  background: #424769;
   padding: 0 2rem;
+}
+
+h1 {
+  color: white;
 }
 
 .main-header h1 {
   color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  background: #171e31;
 }
